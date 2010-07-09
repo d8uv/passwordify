@@ -10,8 +10,8 @@ $(document).ready(function () {
 
 
 
-    $("p").hide().prev().append("<span class='tip'>?</span>");
-    $(".tip").click(function () {
+    $(".tip").hide().prev().append("<span class='tipToggle'>?</span>");
+    $(".tipToggle").click(function () {
 	$(this).parent().next().slideToggle("slow");
     });
 });
