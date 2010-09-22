@@ -4,34 +4,14 @@
 <title>Makin' Passwords</title>
 <h1>Passwordify!</h1>
 
-<p class="tip">Most people, by their own nature, generate shitty
-passwords. <b>Passwordify</b> is a tool that makes really strong
-passwords for you. Just type in a short master password, the name of
-the site you want to make a password for, and you'll get an incredibly
-strong password that is almost entirely unbreakable.</p>
-
 <form name="input">
 <ul> 
-
-<li>
-<label>Master Password: 
-  <input type="password" name="in1" placeholder="ff"></label>
-<p class="tip">Note, this doesn't need to be very long. Something like
-"ff" will provide the same amount of security as
-"sIc6yhqqHN0xysPvCgCYnQ==".</p>
-</li>
-
-<li>
-<label>Name of Site: 
-  <input type="text" name="in2" placeholder="d8uv.org">
-</label>
-</li> 
-
+<li><label>Master Password: <input type="text" name="in1"></label></li>
+<li><label>Name of Site: <input type="text" name="in2"></label></li> 
 </ul>
 </form>
 
-<h2>And you get:</h2>
-<p id="out">1B2M2Y8AsgTpgAmY7PhCfg==</p>
+<h2 id="out"></h2>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
 <script src="libs.js"></script>
